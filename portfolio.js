@@ -6,6 +6,15 @@ export const portfolio = {
   discord: 'https://discord.com/users/674778823488831519', // Your full HTTPS Discord profile or invite URL.
   projects: [
   {
+    "id": "long-02",
+    "format": "horizontal",
+    "title": "DanTDM LongVideo from LiveStream",
+    "category": "Horizontal",
+    "duration": "3:07",
+    "source": "https://youtu.be/SKKooj7ys30",
+    "poster": "https://i.ytimg.com/vi/SKKooj7ys30/hqdefault.jpg"
+  },
+  {
     "id": "long-01",
     "format": "horizontal",
     "title": "Eystreem VOD edit",

@@ -197,3 +197,6 @@ dialog::backdrop{background:#030814e6;backdrop-filter:blur(8px)}
   .project-collection .vertical-grid.multiple{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(62%,240px);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:thin}
   .project-collection .vertical-grid.multiple>.project-card{scroll-snap-align:start}
 }
+
+/* Three or more horizontal edits sit three across on wide screens */
+@media(min-width:701px){.project-collection .horizontal-grid.multiple:has(>:nth-child(3)){grid-template-columns:repeat(3,minmax(0,1fr))}}
